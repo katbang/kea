@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Lato:wght@300&display=swap");
+@font-face {
+  font-family: "Courant";
+  src: url("../font/CON_____.ttf");
+}
+img {
+  max-width: 100%;
+}
+
+video {
+  max-width: 100%;
+}
+#baggrundsbillede {
+  background-image: url(../billeder/baggrundsbillede.webp);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.blok {
+  font-family: "Lato", sans-serif;
+  font-size: 130%;
+  color: white;
+}
+.formel {
+  font-family: "Beau Rivage", cursive;
+  font-size: 150%;
+  color: white;
+}
+#billedetekst {
+  position: absolute;
+  top: 22%;
+  left: 81%;
+  line-height: 0.7;
+  text-align: end;
+  font-family: Courant;
+  color: #d1dad6;
+}
+#box {
+  aspect-ratio: 879/106;
+  background-color: #5c1f28;
+}
+h1 {
+  position: relative;
+  top: 15%;
+  left: 30%;
+  margin: 0;
+}
+
+#box2 {
+  aspect-ratio: 1113/71;
+  background-color: #5c1f28;
+  margin-left: -2em;
+}
+#tekst {
+  font-family: "Lato", sans-serif;
+  font-size: 50%;
+  margin-top: 0.5em;
+  margin-left: 2em;
+  color: white;
+  width: 30ch;
+}
+#box3 {
+  background-color: black;
+}
+#citat {
+  margin-top: -1em;
+  margin-left: 1.5em;
+  font-family: "Beau Rivage", cursive;
+  font-size: 33px;
+  color: white;
+  margin-top: 4.5em;
+  width: 10ch;
+}
+iframe {
+  max-width: 100%;
+}
